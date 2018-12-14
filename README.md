@@ -76,6 +76,7 @@ Prøv at gå ind i filen ~/rosjava_srv_ws/src/tutorial_custom_src/client_server/
 Ok lad os prøve at rette vores Talker og Listener så den kanal de bruger nu hedder robo2019 og den sender en Int32 (se https://wiki.ros.org/std_msgs) i kanalen istedet for en string.
 
 I Listener.java ret så 
+
 Subscriber<std_msgs.String> subscriber = connectedNode.newSubscriber("chatter", st_msgs.String,_TYPE); bliver til 
 
 Subscriber<std_msgs.Int32> subscriber = connectedNote.newSubscriber("Robo2019", st_msgs.Int32,_TYPE); 
