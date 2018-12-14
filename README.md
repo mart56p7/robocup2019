@@ -63,3 +63,29 @@ Vælg 1 hvis du får nogle valgmuligheder.
 Ok du burde nu få en masse Helle Word! XX at se.
 
 Prøv at gå ind i filen ~/rosjava_srv_ws/src/tutorial_custom_src/client_server/src/main/java/com/github/tutorial_custom_src/client_server/Listener.java og ret så der under log.info nu står en anden tekst. Efter det er gjort compile koden ved at bruge catkin_make i mappen ~/rosjava_srv_ws/
+
+Ok lad os prøve at rette vores Talker og Listener så den kanal de bruger nu hedder robo2019 og den sender en int32 i kanalen istedet for en string.
+
+I Listener.java ret så 
+
+connectedNote.newSubscriber("chatter", st_msgs.String,_TYPE); bliver til 
+
+connectedNote.newSubscriber("Robo2019", st_msgs.Int32,_TYPE); 
+
+I Talker.java ret så
+connectedNote.newSubscriber("chatter", st_msgs.String,_TYPE); bliver til 
+
+connectedNote.newSubscriber("Robo2019", st_msgs.Int32,_TYPE);
+
+std_msgs.String str = publisher.newMessage();
+str.setData("Hello world! " + sequenceNumber); 
+publisher.publish(str);
+
+bliver til
+
+std_msgs.Int32 i = publisher.newMessage();
+i.setData(sequenceNumber); 
+publisher.pusblish(i);
+
+
+
