@@ -52,12 +52,15 @@ Note: Husk at starte roscore før du prøver at køre et ros program.
 Her er det så
 
 rosrun tutorial_custom_srv client_server com.github.rosjava.tutorial_custom_src.client_server.Talker
+
 rosrun tutorial_custom_srv client_server com.github.rosjava.tutorial_custom_src.client_server.Listener
 
 Vælg 1 hvis du får nogle valgmuligheder.
 
 Åben en terminal og kør: roscore
+
 Åben en terminal og kør: rosrun tutorial_custom_srv client_server com.github.rosjava.tutorial_custom_src.client_server.Talker
+
 Åben en terminal og kør: rosrun tutorial_custom_srv client_server com.github.rosjava.tutorial_custom_src.client_server.Listener
 
 Ok du burde nu få en masse Helle Word! XX at se.
@@ -95,7 +98,9 @@ Compile koden ved at kør catkin_make
 Prøv at køre koden nu ved at åbne 3 terminaler
 
 terminal1: roscore
+
 terminal2: rosrun tutorial_custom_srv client_server com.github.rosjava.tutorial_custom_src.client_server.Talker
+
 terminal3: rosrun tutorial_custom_srv client_server com.github.rosjava.tutorial_custom_src.client_server.Listener
 
 
