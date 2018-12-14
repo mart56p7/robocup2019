@@ -16,6 +16,13 @@ Efter du har installeret ROS og opsat Environment setup etc. er det tid til at i
 
 Efter det skal du refere til den setup.bash der er lavet. Kør source ~/rosjava/devel/setup.bash (ref: https://answers.ros.org/question/277437/solvedrosjavacatkin_create_rosjava_pkg-command-not-found/ )
 
+For at gøre så man ikke skal køre /opt/ros/kinect/setup.bash og /rosjava/devel/setup.bash så åben din ~/.bashrc og tilføj i bunden af filen:
+
+source /opt/ros/kinect/setup.bash
+source /rosjava/devel/setup.bash
+
+Derefter når din terminal åbner, så køre den automatisk de 2 scripts.
+
 Nu er det tid til at kode .. :)
 
 
