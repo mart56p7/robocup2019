@@ -113,3 +113,5 @@ terminal3: rosrun tutorial_custom_srv client_server com.github.rosjava.tutorial_
 
 Det er det :) Hele ideen med ROS er at lave en platform hvor på at forskellige dele i robotten kan tale sammen via kanaler. Der er en masse andre features og pakker men helt basalt kan det koges ned til dette.
 
+**** ROS ****
+Man kan skrive ROS i C++, Python eller Java. Python er helt klart det nemmeste. Men da vi har lært Java så har jeg kigget på ROSJava.
