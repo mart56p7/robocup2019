@@ -103,5 +103,5 @@ terminal2: rosrun tutorial_custom_srv client_server com.github.rosjava.tutorial_
 
 terminal3: rosrun tutorial_custom_srv client_server com.github.rosjava.tutorial_custom_src.client_server.Listener
 
-
+Det er det :) Hele ideen med ROS er at lave en platform hvor på at forskellige dele i robotten kan tale sammen via kanaler. Der er en masse andre features og pakker men helt basalt kan det koges ned til dette.
 
