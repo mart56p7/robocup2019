@@ -27,6 +27,7 @@ Derefter når din terminal åbner, så køre den automatisk de 2 scripts.
 
 
 **** Første eksempel ****
+
 Ok lad os prøve det første eksempel
 
 Følg de skridt der er i https://us.battle.net/forums/en/wow/topic/20765767302 udfør alt hvad de beder dig om indtil du når til 2.1 hvor du skal slette en mappe.
