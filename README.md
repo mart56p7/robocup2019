@@ -1,6 +1,8 @@
 # robocup2019
 Preperations for the Robocup 2019
 
+**** Installation ****
+
 Start med at installere VirtualBox: https://www.virtualbox.org/
 Lav en virtuel maskine i VirtualBox (1-3 kerner, 1024-2048MB ram, de to ting her er nemme at ændre senere), 20GB harddisk).
 installer Ubuntu 16.04 LTS: http://releases.ubuntu.com/16.04/ubuntu-16.04.5-desktop-amd64.iso.torrent?_ga=2.215073687.1263508812.1544486165-1815367349.1544218738 (kræver bittorrent)
@@ -23,7 +25,8 @@ source /rosjava/devel/setup.bash
 
 Derefter når din terminal åbner, så køre den automatisk de 2 scripts.
 
---
+
+**** Første eksempel ****
 Ok lad os prøve det første eksempel
 
 Følg de skridt der er i https://us.battle.net/forums/en/wow/topic/20765767302 udfør alt hvad de beder dig om indtil du når til 2.1 hvor du skal slette en mappe.
@@ -64,6 +67,8 @@ Vælg 1 hvis du får nogle valgmuligheder.
 Åben en terminal og kør: rosrun tutorial_custom_srv client_server com.github.rosjava.tutorial_custom_src.client_server.Listener
 
 Ok du burde nu få en masse Helle Word! XX at se.
+
+**** Datatyper / Kanaler i ROS ****
 
 Prøv at gå ind i filen ~/rosjava_srv_ws/src/tutorial_custom_src/client_server/src/main/java/com/github/tutorial_custom_src/client_server/Listener.java og ret så der under log.info nu står en anden tekst. Efter det er gjort compile koden ved at bruge catkin_make i mappen ~/rosjava_srv_ws/
 
