@@ -4,7 +4,7 @@ Preperations for the Robocup 2019
 **** Installation ****
 
 Start med at installere VirtualBox: https://www.virtualbox.org/
-Lav en virtuel maskine i VirtualBox (1-3 kerner, 1024-2048MB ram, de to ting her er nemme at ændre senere), 20GB harddisk).
+Lav en virtuel maskine i VirtualBox (1-3 kerner, 1024-2048MB ram, de to ting her er nemme at ændre senere, 20GB harddisk).
 installer Ubuntu 16.04 LTS: http://releases.ubuntu.com/16.04/ubuntu-16.04.5-desktop-amd64.iso.torrent?_ga=2.215073687.1263508812.1544486165-1815367349.1544218738 (kræver bittorrent)
 
 Efter at ubuntu er installeret, så giv den 5 minutter så opdatere den (Opgrader IKKE Ubuntu, vi skal bruge en lidt ældre version..)
